@@ -42,7 +42,7 @@ class Literate < Formula
         }
       EOS
 
-      system "#{bin}/lit", "-code", "#{testpath/"test.lit"}"
+      system "lit", "-code", "#{testpath/"test.lit"}"
       assert_match File.read("hello_world.c").strip, File.read("ans.c").strip
   end
 end
