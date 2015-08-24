@@ -2,7 +2,7 @@ class Literate < Formula
   desc "A Modern Literate Programming System"
   homepage "http://literate.zbyedidia.webfactional.com"
   url "http://literate.zbyedidia.webfactional.com/versions/literate.1.0.0.tar.gz"
-  sha256 "c1972dd011972a993b948b93f1c2aa68c0beb1c169633f6e332e5bff0b6d833d"
+  sha256 "74087d27e6020d1ddac24eb95f2f65a6bd5707ee1891a8f21d80fe790b068b54"
 
   head "https://github.com/zyedidia/Literate.git"
 
